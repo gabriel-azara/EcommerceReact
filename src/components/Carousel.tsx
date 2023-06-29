@@ -1,28 +1,14 @@
-import Slider from 'react-slick';
+import slide1 from '../assets/images/slide-1.jpeg';
+import slide2 from '../assets/images/slide-2.png';
+
 import Image from 'next/image';
 
 export default function Carousel() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000
-  };
+  const slides = [slide1, slide2];
 
   return (
-    <Slider {...settings}>
-      <div>
-        <Image src="../assets/images/slide-1.jpeg" alt="Slide 1" />
-      </div>
-      <div>
-        <Image src="../assets/images/slide-22.png" alt="Slide 2" />
-      </div>
-      {/* <div>
-        <Image src="../assets/images/slide3.jpg" alt="Slide 3" />
-      </div> */}
-    </Slider>
+    <div className="container max-w-4xl ml-auto mr-auto pt-3">
+      <Image src={slide1} alt={`Slide`} className='rounded-lg'/>
+    </div>
   );
 }

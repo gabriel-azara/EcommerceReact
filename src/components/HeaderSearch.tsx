@@ -6,7 +6,7 @@ import { FiSearch } from 'react-icons/Fi';
 export default function HeaderSearch() {
   return (
     <div className="px-12">
-      <div className="px-12 flex justify-between items-center">
+      <div className="px-6 flex justify-between items-center">
         <Image src={logo} alt="logo" width={127} height={127} />
 
         <div className="searchWrapper text-blue-500 flex items-center rounded border-solid border-2 focus:border-sky-500">
