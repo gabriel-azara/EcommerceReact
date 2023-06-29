@@ -12,7 +12,7 @@ export default function Home() {
       <HeaderInfo />
       <HeaderSearch />
       <Navbar />
-      {/* <Carousel /> */}
+      <Carousel />
     </div>
   );
 }

@@ -15,14 +15,14 @@ export default function Carousel() {
   return (
     <Slider {...settings}>
       <div>
-        <Image src="/images/slide1.jpg" alt="Slide 1" />
+        <Image src="../assets/images/slide-1.jpeg" alt="Slide 1" />
       </div>
       <div>
-        <Image src="/images/slide2.jpg" alt="Slide 2" />
+        <Image src="../assets/images/slide-22.png" alt="Slide 2" />
       </div>
-      <div>
-        <Image src="/images/slide3.jpg" alt="Slide 3" />
-      </div>
+      {/* <div>
+        <Image src="../assets/images/slide3.jpg" alt="Slide 3" />
+      </div> */}
     </Slider>
   );
 }
