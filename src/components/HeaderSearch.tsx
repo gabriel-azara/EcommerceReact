@@ -2,23 +2,23 @@ import Image from 'next/image';
 import logo from '../assets/Logo.png';
 import { BsBagDash } from 'react-icons/bs';
 import { FiSearch } from 'react-icons/fi';
+import './HeaderSearch.css';
 
 export default function HeaderSearch() {
+  const search = <FiSearch />;
   return (
     <div className="px-12">
       <div className="px-6 flex justify-between items-center">
         <Image src={logo} alt="logo" width={127} height={127} />
 
-        <div className="searchWrapper text-blue-500 flex items-center rounded border-solid border-2 focus:border-sky-500">
+        <div className="pesquisar searchWrapper text-blue-500 flex items-center rounded border-solid border-2 focus:border-sky-500">
           {/* <form action="" className="rounded border-solid border-2 focus:border-sky-500 "> */}
           <label htmlFor="" className="flex items-center">
-            <span>
-              <FiSearch />
-            </span>
+            <span></span>
             <input
               type="text"
               className="w-[300px]  border-gray-500 placeholder-blue-200 placeholder:italic"
-              placeholder="Pesquisar por peça"
+              placeholder={search + `Pesquisar por peça`}
             />
           </label>
           {/* </form> */}
