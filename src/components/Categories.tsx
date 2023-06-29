@@ -4,7 +4,7 @@ import slide1 from '../assets/images/slide-1.jpeg';
 export default function Categories() {
   return (
     <div className="px-12">
-      <h2 className="text-black text-4xl text-center pt-9 font-bold">
+      <h2 className="text-black text-4xl text-center pt-9 font-bold pb-4">
         Categorias
       </h2>
       <div>
