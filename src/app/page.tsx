@@ -8,6 +8,7 @@ import HeaderSearch from '@/components/HeaderSearch';
 import Navbar from '@/components/Navbar';
 import Payment from '@/components/Payment';
 import Products from '@/components/Products';
+import SimpleSlider from '@/components/SimpleSlider';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HeaderSearch />
       <Navbar />
       <Carousel />
+      {/* <SimpleSlider /> */}
       <Products />
       <Categories />
       <Footer />

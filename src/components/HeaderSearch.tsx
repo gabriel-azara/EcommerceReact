@@ -14,12 +14,14 @@ export default function HeaderSearch() {
         <div className="pesquisar searchWrapper text-blue-500 flex items-center rounded border-solid border-2 focus:border-sky-500">
           {/* <form action="" className="rounded border-solid border-2 focus:border-sky-500 "> */}
           <label htmlFor="" className="flex items-center">
-            <span></span>
             <input
               type="text"
-              className="w-[300px]  border-gray-500 placeholder-blue-200 placeholder:italic"
-              placeholder={search + `Pesquisar por peça`}
+              className="w-[300px]  border-blue-900 placeholder-blue-200 placeholder:italic"
+              placeholder={`Pesquisar por peça`}
             />
+            <span>
+              <FiSearch />
+            </span>
           </label>
           {/* </form> */}
         </div>
