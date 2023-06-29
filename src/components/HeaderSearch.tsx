@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import logo from '../assets/Logo.png';
-import { BsBagDash } from 'react-icons/Bs';
-import { FiSearch } from 'react-icons/Fi';
+import { BsBagDash } from 'react-icons/bs';
+import { FiSearch } from 'react-icons/fi';
 
 export default function HeaderSearch() {
   return (

@@ -1,7 +1,7 @@
 import { FaPhoneAlt, FaTruck } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { AiOutlineFieldTime } from 'react-icons/Ai';
-import { VscAccount } from 'react-icons/Vsc';
+import { AiOutlineFieldTime } from 'react-icons/ai';
+import { VscAccount } from 'react-icons/vsc';
 
 export default function HeaderInfo() {
   return (
