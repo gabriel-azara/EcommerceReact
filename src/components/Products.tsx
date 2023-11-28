@@ -35,7 +35,7 @@ export default function Products() {
               <Image
                 src={slide1}
                 alt="Calça"
-                className="object-cover h-72 w-72 rounded-3xl"
+                className="object-cover h-72 w-72 rounded-3xl max-w-lg"
               ></Image>
               <h3 className="productName text-blue-900 font-semibold py-1 text-center">
                 Calça Jeans Premium
@@ -44,7 +44,7 @@ export default function Products() {
                 <span className="text-blue-300 line-through">R$ 60,00</span> R$
                 40,00
               </p>
-              <button className="rounded p-1 w-full bg-blue-900 ">
+              <button className="rounded p-1 w-full bg-blue-900  ">
                 Comprar
               </button>
             </a>
